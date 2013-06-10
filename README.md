@@ -4,7 +4,11 @@ range-selection-parser
 AngularJS module to parse range selection strings from user input, for example '2, 5, 7-9'.
 
 
-Usage:
+**Example:**
+
+Clone the repo and point your browser to ```example/example.html```
+
+**Usage:**
 
 Inject service ```rangeSelectionParser``` to your controller and then
 
@@ -26,6 +30,8 @@ Parser is very forgiving:
 rangeSelectionParser.parseSelectionString(' 0 ,  5- 9 13');
   // => [0, 5, 6, 7, 8, 9, 13]
 ```
+
+**Testing**
 
 Run tests on command line with Karma
 
