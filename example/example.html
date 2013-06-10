@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>rangeSelectionParser example</title>
+</head>
+<body ng-app="exampleApp">
+
+<div ng-controller="InputController">
+  <h3>Example of service 'rangeSelectionParser'</h3>
+  <p>Source array: ['aa', 'bb', 'cc', 'dd', 'ee', 'ff', 'gg']</p>
+  <p>Selection string: <input ng-model="userInput"/></p>
+  <p>Parse results: {{parsedString}}</p>
+  <p>Filtered array: {{filteredArray}}</p>
+</div>
+
+<script type="text/javascript" src="../lib/angular.min.js"></script>
+<script type="text/javascript" src="../lib/underscore.js"></script>
+<script type="text/javascript" src="../range-selection-parser.js"></script>
+<script type="text/javascript" src="app.js"></script>
+
+</body>
+</html>

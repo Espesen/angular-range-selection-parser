@@ -1,0 +1,27 @@
+{
+  "name": "range-selection-parser",
+  "version": "0.0.1",
+  "description": "Parses selection strings",
+  "main": "range-selection-parser.js",
+  "scripts": {
+    "test": "jasmine-node test"
+  },
+  "repository": "https://github.com/Espesen/range-selection-parser",
+  "keywords": [
+    "range",
+    "user input",
+    "selection",
+    "string",
+    "parser",
+    "comma-separated",
+    "list"
+  ],
+  "author": "Esa Toivola",
+  "license": "BSD",
+  "dependencies": {
+    "underscore": "~1.4.4"
+  },
+  "devDependencies": {
+    "jasmine-node": "~1.8.0"
+  }
+}
