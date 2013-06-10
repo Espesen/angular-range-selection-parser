@@ -6,7 +6,7 @@ AngularJS module to parse range selection strings from user input, for example '
 
 **Example:**
 
-Clone the repo and point your browser to ```example/example.html```
+http://htmlpreview.github.io/?https://github.com/Espesen/angular-range-selection-parser/blob/master/example/example.html
 
 **Usage:**
 
